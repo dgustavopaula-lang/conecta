@@ -544,3 +544,11 @@ em{font-style:normal;color:var(--agro-gold);}
   *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;}
   .revelar{opacity:1;transform:none;}
 }
+
+/* ---------- NEXOTERRA CORE (planos) ---------- */
+.nt-lista{display:flex;flex-direction:column;gap:10px;margin:0 0 28px;flex:1;}
+.nt-lista li{display:flex;gap:10px;align-items:flex-start;color:var(--agro-muted);font-size:.92rem;line-height:1.45;}
+.nt-lista li::before{content:'✓';flex-shrink:0;color:var(--agro-gold);font-weight:700;font-size:.8rem;margin-top:2px;}
+.nt-chip{display:inline-block;font-family:var(--mono);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--agro-border);border-radius:6px;padding:2px 7px;color:var(--agro-muted);margin-left:4px;vertical-align:1px;white-space:nowrap;}
+.nt-chip.ok{color:var(--agro-success);border-color:rgba(95,207,155,.4);}
+.nt-chip.soon{color:var(--agro-gold);border-color:rgba(233,185,73,.4);}
